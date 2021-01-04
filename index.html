@@ -2,13 +2,13 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Versiebeheer LO0E 2.5 - Conflicten</title>
+        <title>Versiebeheer LO0E 2.7 - Herhaling</title>
         <link rel="stylesheet" href="style/index.css">
     </head>
     <body>
 
         <header id="header">
-            <h1 id="page-title">VCS LO0E 2.6 - Conflicten</h1>
+            <h1 id="page-title">VCS LO0E 2.7 - Herhaling</h1>
             <p id="naam">Naam van Student</p>
             <p id="version">Versie: 1.0</p>
         </header>
@@ -127,11 +127,11 @@
                 </header>
 
                 <section>
-                    <h3>Hulk</h3>
+                    <h3>Iron man</h3>
                     <ul>
                         <li>Zorg dat je in de <strong class="badge branch">master</strong> branch zit</li>
-                        <li>Begin een nieuwe branch: <strong class="badge branch">hulk</strong></li>
-                        <li>Pas de hierboven aangegeven winnaar (id=winnaar) aan naar: <em>Hulk</em></li>
+                        <li>Begin een nieuwe branch: <strong class="badge branch">iron-man</strong></li>
+                        <li>Pas de hierboven aangegeven winnaar (id=winnaar) aan naar: <em>Iron man</em></li>
                         <li>Commit deze wijziging.</li>
                     </ul>
 
@@ -146,6 +146,7 @@
                     <h3>Conflict!</h3>
                     <ul>
                         <li>Ga terug naar de <strong class="badge branch">master</strong> branch</li>
+                        <li>Refresh de pagina en check of Niemand de winnaar is</li>
                         <li>
                             <em class="badge merge">Merge</em> de aanpassingen van 
                             <strong class="badge branch">superman</strong> naar
@@ -154,7 +155,7 @@
                         <li>Controleer of superman de winnaar is (refresh de pagina).</li>
                         <li>
                             <em class="badge merge">Merge</em> de aanpassingen van 
-                            <strong class="badge branch">hulk</strong> naar
+                            <strong class="badge branch">iron-man</strong> naar
                             <strong class="badge branch">master</strong>.
                         </li>
                         <li>
@@ -164,12 +165,12 @@
 &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 &lt;span id="winnaar"&gt;Superman&lt;/span&gt;
 =======
-&lt;span id="winnaar"&gt;Hulk&lt;/span&gt;
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; hulk
+&lt;span id="winnaar"&gt;Iron man&lt;/span&gt;
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; iron-man
                                 </code>
                             </pre>
                         </li>
-                        <li>Zorg dat <em>Hulk</em> de winnaar is.</li>
+                        <li>Zorg dat <em>Iron man</em> de winnaar is.</li>
                         <li>Commit de merge</li>
                         <li>Push de <strong class="badge branch">master</strong> branch naar github</li>
                     </ul>
@@ -247,7 +248,7 @@
                     <div class="title">
                         <h2>5. Een branch rebasen</h2>
                         <p>
-                            <span id="branch" class="badge branch">master</span>
+                            <span id="status">Waioo</span>
                         </p>
                     </div>
                     <div class="meta">
@@ -259,8 +260,8 @@
                     <h3>Nieuwe branch</h3>
                     <ul>
                         <li>Zorg dat je in de <strong class="badge branch">master</strong> branch zit</li>
-                        <li>Begin een nieuwe branch: <strong class="badge branch">yin</strong></li>
-                        <li>Pas het hierboven aangegeven branch naam (id=branch) aan naar: <em>rebase</em></li>
+                        <li>Begin een nieuwe branch: <strong class="badge branch">rebase</strong></li>
+                        <li>Pas het hierboven aangegeven branch naam (id=status) aan naar: <em>Geen stress</em></li>
                         <li>Commit deze wijziging.</li>
                     </ul>
 
@@ -268,7 +269,7 @@
                     <ul>
                         <li>Ga terug naar de <strong class="badge branch">master</strong> branch</li>
                         <li>
-                            Pas het hierboven aangegeven element (id=branch) aan van een 
+                            Pas het hierboven aangegeven element (id=status) aan van een 
                             <strong>span</strong> naar een
                             <strong>h6</strong>
                         </li>
@@ -283,10 +284,10 @@
                         </li>
                         <li>
                             Los het conflict op, controleer het resultaat en maak een commit.<br>
-                            In het eind resultaat heb je dan een <strong>h6</strong> met daarin <em>Rebase</em>
+                            In het eind resultaat heb je dan een <strong>h6</strong> met daarin <em>Geen stress</em>
                             <pre>
                                 <code>
-&lt;h6 id="branch"&gt;rebase&lt;/h6&gt;
+&lt;h6 id="branch"&gt;Geen stress&lt;/h6&gt;
                             </code></pre>
                         </li>
                         <li>
